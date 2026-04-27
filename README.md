@@ -146,15 +146,15 @@ the flight metaphor, session setup, focus modes, XP system, and getting started.
 
 ---
 
-## 🗺️ Flight Visualization Gallery
+## 🗺️ Custom Map Styles
 
-Experience your focus journey through dynamic maps and phases.
+Choose from multiple map themes to suit your focus environment.
 
-| Phase 1 | Phase 2 | Phase 3 |
-|:---:|:---:|:---:|
-| ![Map 2](FocusFlight%20Live%20map2.png) | ![Map 3](FocusFlight%20Live%20map3.png) | ![Map 4](FocusFlight%20Live%20map4.png) |
+| Midnight | Satellite | Topographic | Navigation |
+|:---:|:---:|:---:|:---:|
+| ![Map 2](FocusFlight%20Live%20map2.png) | ![Map 3](FocusFlight%20Live%20map3.png) | ![Map 4](FocusFlight%20Live%20map4.png) | ![Map 5](FocusFlight%20Live%20map5.png) |
 
-> *Monitor your progress across 7 real flight phases from Taxi to Landing.*
+> *Toggle between different aesthetic styles to keep your workspace fresh.*
 
 ---
 
@@ -235,4 +235,3 @@ export const XP_PER_LEVEL = 500; // default
 
 > *"Every focus session is a flight. Stay in the air."* ✈️
 
-4
