@@ -1,0 +1,36 @@
+{
+  "name": "focusflight",
+  "version": "2.0.0",
+  "description": "Gamified focus and time-management app with flight-themed XP and achievements",
+  "type": "module",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "electron:build": "vite build && electron-builder"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.0",
+    "electron": "^40.6.1",
+    "electron-builder": "^26.8.1",
+    "vite": "^5.1.0"
+  },
+  "build": {
+  "appId": "com.focusflight.app",
+  "productName": "FocusFlight",
+  "win": {
+    "target": [
+      {
+        "target": "portable",
+        "arch": ["x64"]
+      }
+    ]
+  },
+"files": ["dist/**/*", "electron/**/*"]
+}
+}
